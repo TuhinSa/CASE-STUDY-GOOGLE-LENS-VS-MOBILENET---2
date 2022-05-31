@@ -1,0 +1,43 @@
+<html>
+<head>
+  <title>Real Time Image Identification App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <center>
+    <label style = "color: red;">CASE STUDY BETWEEN GOOGLE LENS AND MOBILENET</label>
+    <br>
+    <label>Google Lens</label>
+    <img src="https://play-lh.googleusercontent.com/G5oF0mhpOcQzFTrU6TDUL0JoAjzRt38weiZKua7L61WVT1z3dPcE9gUu-W2EwtM9cZU"> 
+    
+    <br>
+    <label style = "color: red;">vs</label>
+    <br>
+    <button class="btn btn-primary"> Mobilenet</button>
+    <br>
+    <div class="copy_right_footer">
+      <label>Test Image</label>
+    <img  src="bottle.jpeg">
+    <h3>Output on Google Lens:
+    <span>Milton Antlantis 900</span>
+    </h3>
+    <h3>Output on Mobilenet:
+        <span>Water bottle</span>
+        </h3>
+<h3>Result:</h3>
+<hr>
+  <span> Google lens  is more accurate than mobilenet</span>
+
+</div>
+</center>
+<script src = "main.js"></script>
+</body>
+</html>

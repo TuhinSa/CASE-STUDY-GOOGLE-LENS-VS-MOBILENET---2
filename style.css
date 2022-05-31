@@ -1,0 +1,13 @@
+.copy_right_footer {
+    position: fixed;
+    color:white;
+    bottom:0;
+   width : 100%;
+   background-color: gray;
+   line-height: 3;
+   text-align: center;
+  }
+ img {
+     height: 200;
+left: 2px
+ }
